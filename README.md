@@ -18,7 +18,7 @@ _Road to Data Engineer 2023 by DataTH_
 5. Apache Spark, PySpark
 6. Google Cloud Storage
 7. Google Cloud Composer
-8. Apache Airflow, DAG: Directed Acyclic Graph
+8. Apache Airflow, Directed Acyclic Graph (DAG)
 9. Google BigQuery
 10. Looker Studio
 
@@ -50,15 +50,33 @@ Chapter 2 : Data Cleansing
 Chapter 3 : Cloud Computing
   * On-Premise vs Cloud Computing
   * ประเภทของ Cloud Computing : Public Cloud, Private Cloud, Hybrid Cloud
-  * Cloud Computing Concepts : Compute, Storage/Database
+  * คอนเซปต์ของ Cloud Computing : Compute, Storage/Database
   * บริการประเภทต่างๆ บน Cloud (as a service)
   * Cloud Vendor Lock-In และ Cloud Agnostic
   * บริการต่างๆ Google Cloud Platform (GCP)
-  * Intro to Bash Command
+  * Intro to Bash
   * Workshop 3 : Upload to Data Lake อัพโหลดไฟล์ข้อมูลเข้า Google Cloud Storage ที่จะใช้เป็น Data Lake
 
+Chapter 4 : Data Pipeline Orchestration
+  * ทำความรู้จัก Data Pipeline Orchestration
+  * Apache Airflow
+  * Google Cloud Composer
+  * Directed Acyclic Graph (DAG)
+  * DAG ใน Airflow
+  * Workshop 4 : Automated Data Pipeline with Airflow
 
+Chapter 5 : Data Warehouse
+  * คอนเซปต์ของ Data Warehouse
+  * Google BigQuery
+  * วิธี Load Data เข้า BigQuery
+  * Workshop 5 : Data Warehouse with BigQuery (ควบคุมทำงานอัตโนมัตด้วย Airflow)
 
+Chapter 6 : Report & Dashboard
+  * พื้นฐาน Data Visualisation สำหรับ Data Engineer
+  * Looker Studio
+  * ที่มาของข้อมูล : Data Set & Data Source
+  * Dimension & Metric
+  * Workshop 6 : Data Visualisation with Looker Studio สร้าง Report และ Dashboard ออนไลน์ด้วย Looker Studio
 
 
 
