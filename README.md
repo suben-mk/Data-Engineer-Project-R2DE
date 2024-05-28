@@ -21,3 +21,39 @@ _Road to Data Engineer 2023 by DataTH_
 8. Apache Airflow, DAG: Directed Acyclic Graph
 9. Google BigQuery
 10. Looker Studio
+
+## Course Outline
+![R2DE-Curriculum](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/4baa0046-9eb1-4ff5-b2f7-f6c26ed1959d)
+
+Chapter 0 : Introduction to Data Engineering
+  * ทำความรู้จักกับอาชีพ Data Engineer
+  * Big Data และ Big Data Platform (Hadoop&Cloud)
+  * ประเภทของข้อมูล : Structured data, Semi-structured data, Unstructured data
+  * ประเภทที่จัดเก็บข้อมูล : Database, Data Lake, Data Warehouse
+  * Pre-course Python
+    
+Chapter 1 : Data Pipeline & ETL
+  * ทำความรู้จัก Data Pipeline
+  * การออกแบบ Data Pipeline (ETL & ELT)
+  * Data Integration การนำข้อมูลจากหลากหลายแหล่งข้อมูล มารวมกันให้เป็นชุดเดียว
+  * Workshop 1 : Data Collection with Python เก็บข้อมูลจาก Database และ REST API ด้วย Python
+  * Pre-course SQL
+
+Chapter 2 : Data Cleansing
+  * Data Cleansing การทาความสะอาดข้อมูล
+  * Data Quality คุณภาพข้อมูลที่ดี : Data Dictionary, Data Lineage, Data Catalogue
+  * Data Profiling & Exploratory Data Analysis (EDA)
+  * Data Anomaly ความผิดปกติของข้อมูลที่เกิดขึ้นได้จากตอนเก็บข้อมูล
+  * Distributed Data Processing การประมวลผลข้อมูล แบบกระจายศูนย์ : Hadoop MapReduce, Apache Spark
+  * Workshop 2 : Data Cleansing with Spark ใช้ Apache Spark เพื่อให้ข้อมูลของมีคุณภาพ
+
+
+
+
+
+
+
+
+
+
+
