@@ -78,7 +78,17 @@ Chapter 6 : Report & Dashboard
   * Dimension & Metric
   * Workshop 6 : Data Visualisation with Looker Studio สร้าง Report และ Dashboard ออนไลน์ด้วย Looker Studio
 
-
+Chapter 7: Advanced Data Engineering
+  * งาน end-to-end ของ Data Engineer
+  * Case Study : AirBnB Data Pipeline
+  * Efficient Data Files
+  * Data Pipeline Design & Architecture
+  * Data Governance
+  * Git & Docker
+  * Data Security & Policy
+  * Machine Learning Model & Data Engineer
+  * Future Data Warehouse : Snowflake, Delta Lake
+  * Data Engineer Career Path
 
 
 
