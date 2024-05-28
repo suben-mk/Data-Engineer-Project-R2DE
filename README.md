@@ -90,7 +90,43 @@ Chapter 7: Advanced Data Engineering
   * Future Data Warehouse : Snowflake, Delta Lake
   * Data Engineer Career Path
 
+## Data Engineer Workshop
 
+![R2DE-Workshop](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/2babcb3e-69ed-46c1-8655-54ac1f5c8de0)
 
+### Dataset
 
+![dataset 1](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/26db4ff4-f98b-4c44-925a-bb5ed8b875dc)
+_Audible data_
 
+![dataset 2](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/bc95dac9-fd09-42c7-9424-4e141de888cb)\
+_Audible Transaction_
+
+### Automated Data Pipeline with Airflow
+
+![image](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/7f1e99a0-b231-4573-8352-fa24e7c9dfc9)
+
+### Dataset on Google BigQuery
+
+![vw-dataset](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/920caceb-4e1a-4f70-af4e-28135f3049a8)
+
+### Data Visualisation
+**Dashboard 1 : Overview แสดงข้อมูลสรุป**
+  * รายได้ของธุรกิจ
+  * จำนวนลูกค้า
+  * จำนวนการซื้อในแต่ละประเทศ
+  * หนังสือขายดี
+  * หมวดหมู่หนังสือที่ขายดี
+
+   ![Dashboard 1](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/1314d48c-dbe1-4758-a13e-7b39596d25ea)
+
+**Dashboard 2 : Search book by revenue ระบบค้นหาหนังสือจากยอดขาย**
+  * สามารถเลือกประเทศ เลือกยอดขายที่ต้องการค้นหาได้
+  * แสดงเฉพาะหนังสือที่ตรงตามเกณฑ์การค้นหา(Search Criteria)
+
+   ![Dashboard 2](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/e0d780ee-0230-4c9e-b639-43063fbb04a7)
+
+## Certificate of Achievement
+หลังจากได้เรียน Road to Data Engineer จบก็จะมีการสอบ Final Exam ซึ่งจะต้องผ่านเกณฑ์คือ 75% ก็จะได้รับ Certificate จาก DataTH
+
+![suben-certificate-r2de 2 0](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/d01dccbf-b246-404e-a39f-9a50f7ad9690)
