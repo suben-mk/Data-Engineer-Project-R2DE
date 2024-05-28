@@ -47,6 +47,15 @@ Chapter 2 : Data Cleansing
   * Distributed Data Processing การประมวลผลข้อมูล แบบกระจายศูนย์ : Hadoop MapReduce, Apache Spark
   * Workshop 2 : Data Cleansing with Spark ใช้ Apache Spark เพื่อให้ข้อมูลของมีคุณภาพ
 
+Chapter 3 : Cloud Computing
+  * On-Premise vs Cloud Computing
+  * ประเภทของ Cloud Computing : Public Cloud, Private Cloud, Hybrid Cloud
+  * Cloud Computing Concepts : Compute, Storage/Database
+  * บริการประเภทต่างๆ บน Cloud (as a service)
+  * Cloud Vendor Lock-In และ Cloud Agnostic
+  * บริการต่างๆ Google Cloud Platform (GCP)
+  * Intro to Bash Command
+  * Workshop 3 : Upload to Data Lake อัพโหลดไฟล์ข้อมูลเข้า Google Cloud Storage ที่จะใช้เป็น Data Lake
 
 
 
