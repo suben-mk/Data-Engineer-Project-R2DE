@@ -14,9 +14,10 @@ _Road to Data Engineer 2023 by DataTH_
 1. Python
 2. Structured Query Language (SQL)
 3. Python Libraries : Pandas, Requests, Plotly
-4. Apache Spark, PySpark
-5. Google Cloud Storage
-6. Google Cloud Composer
-7. Apache Airflow, DAG: Directed Acyclic Graph
-8. Google BigQuery
-9. Looker Studio
+4. Bash Command Line
+5. Apache Spark, PySpark
+6. Google Cloud Storage
+7. Google Cloud Composer
+8. Apache Airflow, DAG: Directed Acyclic Graph
+9. Google BigQuery
+10. Looker Studio
