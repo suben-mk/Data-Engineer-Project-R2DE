@@ -94,13 +94,23 @@ Chapter 7: Advanced Data Engineering
 
 ![R2DE-Workshop](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/2babcb3e-69ed-46c1-8655-54ac1f5c8de0)
 
-### Dataset
+Workshop 1 : Data Collection with Python
+  * อ่านข้อมูลจาก MySQL
+  * อ่านข้อมูลจาก REST API ด้วย Package Reqeusts
+  * Join table datafram และ save dataset to csv ด้วย pandas
+  * Bonus : การเก็บตัวแปรหรือ password ไว้ในไฟล์ env 
+  * Bonus : การอ่านตัวแปร .env จากไฟล์ด้วย python-dotenv
 
 ![dataset 1](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/26db4ff4-f98b-4c44-925a-bb5ed8b875dc)
-_Audible data_
+_ตัวอย่าง Dataset : Audible data_
 
-![dataset 2](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/bc95dac9-fd09-42c7-9424-4e141de888cb)\
-_Audible Transaction_
+Workshop 2 : Data Cleansing with Spark
+  * ติดตั้ง Spark และ PySpark บน Goole Colab
+  * Data profiling เบื้องต้น
+  * EDA - Exploratory Data Analysis
+  * ทำความสะอาดข้อมูลด้วย Spark : PySpark, SparkSQL
+  * Save data เป็น CSV แบบ partitioned files และไฟล์เดียว
+  * Bonus : วิธีอ่านไฟล์ที่มีหลาย Part
 
 ### Automated Data Pipeline with Airflow
 
