@@ -63,13 +63,13 @@ Chapter 4 : Data Pipeline Orchestration
   * Google Cloud Composer
   * Directed Acyclic Graph (DAG)
   * DAG ใน Airflow
-  * Workshop 4 : Automated Data Pipeline with Airflow
+  * Workshop 4 : Automated Data Pipeline with Airflow ควบคุมทำงานอัตโนมัตด้วย Airflow
 
 Chapter 5 : Data Warehouse
   * คอนเซปต์ของ Data Warehouse
   * Google BigQuery
   * วิธี Load Data เข้า BigQuery
-  * Workshop 5 : Data Warehouse with BigQuery (ควบคุมทำงานอัตโนมัตด้วย Airflow)
+  * Workshop 5 : Data Warehouse with BigQuery 
 
 Chapter 6 : Report & Dashboard
   * พื้นฐาน Data Visualisation สำหรับ Data Engineer
@@ -121,17 +121,30 @@ Workshop 3 : Upload to Data Lake
 
 Workshop 4 : Automated Data Pipeline with Airflow
   * สร้าง Cloud Composer Cluster เพื่อรัน Apache Airflow
-  * จัดการ Cloud Composer environment
+  * จัดการ Cloud Composer environment : ติดตั้งเพิ่ม python package เช่น pymysql, requests, pandas
   * การใช้งานเบื้องต้น Airflow Web UI
   * อัพโหลด python file เข้าไปอยู่ใน Apache DAGs เพื่อรัน Automated Data Pipeline
 
 ![image](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/7f1e99a0-b231-4573-8352-fa24e7c9dfc9)
 
-### Dataset on Google BigQuery
+Workshop 5 : Data Warehouse with BigQuery
+  * สร้าง Dataset บน BigQuery
+  * Import ข้อมูลเข้าไปอยู่ใน BigQuery ซึ่งควบคุมทำงานอัตโนมัตด้วย Airflow
+  * Explore ข้อมูลบน BigQuery
 
-![vw-dataset](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/920caceb-4e1a-4f70-af4e-28135f3049a8)
+![image](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/8a5b73f6-020e-496d-81b3-5ab2dcd0373e)
 
-### Data Visualisation
+Workshop 6 : Data Visualisation with Looker Studio
+  * สร้าง View table ใช้คำสั่ง SQL บน BigQuery เพื่อนำข้อมูลบางส่วนไปใช้ทำ Dashboard
+    
+    ```sql
+    CREATE VIEW r2de2-workshop.ws6.vw_ws6
+    AS
+    SELECT timestamp, user_id, country, Book_ID, Book_Title, Categories, THBPrice
+    FROM r2de2-workshop.ws6.ws6
+    ```
+    _ตัวอย่างการสร้าง View table_
+
 **Dashboard 1 : Overview แสดงข้อมูลสรุป**
   * รายได้ของธุรกิจ
   * จำนวนลูกค้า
@@ -147,7 +160,10 @@ Workshop 4 : Automated Data Pipeline with Airflow
 
    ![Dashboard 2](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/e0d780ee-0230-4c9e-b639-43063fbb04a7)
 
-## Certificate of Achievement
+## Certificate
 หลังจากได้เรียน Road to Data Engineer จบก็จะมีการสอบ Final Exam ซึ่งจะต้องผ่านเกณฑ์คือ 75% ก็จะได้รับ Certificate จาก DataTH
 
 ![suben-certificate-r2de 2 0](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/d01dccbf-b246-404e-a39f-9a50f7ad9690)
+
+## Note
+ติดตามข่าวสารจาก _**DataTH**_ ได้ที่ [DataTH Blog](https://blog.datath.com/) และทาง Facebook page [Data TH - Data Science ชิลชิล](https://www.facebook.com/datasciencechill)
