@@ -111,6 +111,10 @@ Workshop 2 : Data Cleansing with Spark
   * ทำความสะอาดข้อมูลด้วย Spark : PySpark, SparkSQL
   * Save data เป็น CSV แบบ partitioned files และไฟล์เดียว
   * Bonus : วิธีอ่านไฟล์ที่มีหลาย Part
+    
+Workshop 3 : Upload to Data Lake
+  * สมัครสมาชิก Google Cloud
+  * สร้าง
 
 ### Automated Data Pipeline with Airflow
 
