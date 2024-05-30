@@ -1,7 +1,7 @@
 # Data Engineer Project
 _Road to Data Engineer 2023 by DataTH_
 
-เมื่อต้นปี 2023 ผมได้มีโอกาศลงคอร์สเรียนออนไลน์ _**Roaad to Data Engineer 2023**_ จาก _**Facebook page : DataTH**_ ซึ่งจะสอนตั้งแต่ความรู้พื้นฐานจนไปถึงสามารถนำความรู้ไปทำงานได้จริงในงานของ Data Engineer และทุกๆ Chapter จะมี Workshop ได้ลงมือทำในคาบเรียนแบบ End-to-end data engineering project และยังได้ใช้เครื่องมือที่ Data Engineer ส่วนใหญ่นิยมใช้กันในปัญจุบัน
+เมื่อต้นปี 2023 ผมได้มีโอกาศลงคอร์สเรียนออนไลน์ _**Road to Data Engineer 2023**_ จาก _**Facebook page : DataTH**_ ซึ่งจะสอนตั้งแต่ความรู้พื้นฐานจนไปถึงสามารถนำความรู้ไปทำงานได้จริงในงานของ Data Engineer และทุกๆ Chapter จะมี Workshop ได้ลงมือทำในคาบเรียนแบบ End-to-end data engineering project และยังได้ใช้เครื่องมือที่ Data Engineer ส่วนใหญ่นิยมใช้กันในปัญจุบัน
 
 ## Project Description
 **บริษัท ร้านขายหนังสือเสียงชื่อดัง**
@@ -113,10 +113,17 @@ Workshop 2 : Data Cleansing with Spark
   * Bonus : วิธีอ่านไฟล์ที่มีหลาย Part
     
 Workshop 3 : Upload to Data Lake
-  * สมัครสมาชิก Google Cloud
-  * สร้าง
+  * สร้าง Project บน Google Cloud
+  * สร้าง Bucket เก็บข้อมูล
+  * CSV file จาก workshop 2 อัพโหลดเข้าไปอยู่ใน Google Cloud Storage
 
-### Automated Data Pipeline with Airflow
+![image](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/bc1b6560-92f5-4ed9-a0be-1c4ce77e44f8)
+
+Workshop 4 : Automated Data Pipeline with Airflow
+  * สร้าง Cloud Composer Cluster เพื่อรัน Apache Airflow
+  * จัดการ Cloud Composer environment
+  * การใช้งานเบื้องต้น Airflow Web UI
+  * อัพโหลด python file เข้าไปอยู่ใน Apache DAGs เพื่อรัน Automated Data Pipeline
 
 ![image](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/7f1e99a0-b231-4573-8352-fa24e7c9dfc9)
 
