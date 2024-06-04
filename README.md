@@ -1,14 +1,14 @@
 # Data Engineer Project
 _Road to Data Engineer 2023 by DataTH_
 
-เมื่อต้นปี 2023 ผมได้มีโอกาศลงคอร์สเรียนออนไลน์ _**Road to Data Engineer 2023**_ จาก _**Facebook page : DataTH**_ ซึ่งจะสอนตั้งแต่ความรู้พื้นฐานจนไปถึงสามารถนำความรู้ไปทำงานได้จริงในงานของ Data Engineer และทุกๆ Chapter จะมี Workshop ได้ลงมือทำในคาบเรียนแบบ End-to-end data engineering project และยังได้ใช้เครื่องมือที่ Data Engineer ส่วนใหญ่นิยมใช้กันในปัญจุบัน
+เมื่อต้นปี 2023 ผมได้มีโอกาศลงคอร์สเรียนออนไลน์ _**Road to Data Engineer 2023**_ จาก _**Facebook page : DataTH**_ ซึ่งจะสอนตั้งแต่ความรู้พื้นฐานจนไปถึงสามารถนำความรู้ไปทำงานได้จริงในงานของ Data Engineer และทุกๆ Chapter จะมี Workshop ได้ลงมือทำในคาบเรียนแบบ End-to-end data engineering process และยังได้ใช้เครื่องมือที่ Data Engineer ส่วนใหญ่นิยมใช้กันในปัจจุบัน
 
 ## Project Description
 **บริษัท ร้านขายหนังสือเสียงชื่อดัง**
 
 **Requirement ทางธุรกิจ :** ทีม Product และทีม Marketing ต้องการเพิ่มยอดขายในปีนี้ จึงอยากรู้ว่าสินค้าไหนขายดี เพื่อจะได้หาสินค้าที่ถูกใจผู้บริโภคมาวางขายและวางแผนจัดโปรโมชั่นได้เหมาะสม
 
-**Requirement ทาง Tech :** บริษัทเก็บข้อมูลยอดขายจากบนเว็บไซต์ ไว้ใน Database ต้องการให้ทีม Data Engineer เตรียมข้อมูลให้ Data Analyst เอาข้อมูลนี้มาทำ Report และ Dashboard เสนอทีม Product และ Marketing
+**Requirement ทาง Tech :** บริษัทเก็บข้อมูลยอดขายจากบนเว็บไซต์มาไว้ในฐานข้อมูล (Database) ซึ่งต้องการให้ทีม Data Engineer เตรียมข้อมูลให้กับทีม Data Analyst เพื่อนำข้อมูลนี้มาทำ Report และ Dashboard เพื่อเสนอทีม Product และทีม Marketing
 
 ## Technology Stack
 1. Python
@@ -97,7 +97,7 @@ Chapter 7: Advanced Data Engineering
 Workshop 1 : Data Collection with Python
   * อ่านข้อมูลจาก MySQL
   * อ่านข้อมูลจาก REST API ด้วย Package Reqeusts
-  * Join table datafram และ save dataset to csv ด้วย pandas
+  * Join table dataframe และ save dataset เป็น csv ด้วย pandas
   * Bonus : การเก็บตัวแปรหรือ password ไว้ในไฟล์ env 
   * Bonus : การอ่านตัวแปร .env จากไฟล์ด้วย python-dotenv
 
@@ -105,11 +105,11 @@ Workshop 1 : Data Collection with Python
 _ตัวอย่าง Dataset : Audible data_
 
 Workshop 2 : Data Cleansing with Spark
-  * ติดตั้ง Spark และ PySpark บน Goole Colab
+  * ติดตั้ง Spark และ PySpark บน Google Colab
   * Data profiling เบื้องต้น
   * EDA - Exploratory Data Analysis
   * ทำความสะอาดข้อมูลด้วย Spark : PySpark, SparkSQL
-  * Save data เป็น CSV แบบ partitioned files และไฟล์เดียว
+  * Save data เป็น csv แบบ partitioned files และไฟล์เดียว
   * Bonus : วิธีอ่านไฟล์ที่มีหลาย Part
     
 Workshop 3 : Upload to Data Lake
