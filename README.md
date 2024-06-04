@@ -161,7 +161,7 @@ Workshop 6 : Data Visualisation with Looker Studio
    ![Dashboard 2](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/e0d780ee-0230-4c9e-b639-43063fbb04a7)
 
 ## Certificate
-หลังจากได้เรียน Road to Data Engineer จบก็จะมีการสอบ Final Exam ซึ่งจะต้องผ่านเกณฑ์คือ 75% ก็จะได้รับ Certificate จาก DataTH
+หลังจากได้เรียน Road to Data Engineer จบ ก็จะมีการสอบ Final Exam ซึ่งจะต้องผ่านเกณฑ์คือ 75% ก็จะได้รับ Certificate จาก DataTH
 
 ![suben-certificate-r2de 2 0](https://github.com/suben-mk/Data-Engineer-Project-R2DE/assets/89971741/d01dccbf-b246-404e-a39f-9a50f7ad9690)
 
